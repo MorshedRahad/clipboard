@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h3 {
+        @apply mb-8 text-4xl font-bold text-darkGrayishBlue md:text-5xl;
+    },
+    
+}
+
+.button-container {
+    @apply flex flex-col md:flex-row mx-auto justify-center space-y-6 w-full text-xl text-white md:space-y-0 md:space-x-4;
+}
